@@ -9,8 +9,8 @@ pipeline {
                    script{
                        checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                            userRemoteConfigs: [[
-                               credentialsId: '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',
-                               url: 'https://github.com/TiffanyNgono/Timesheet-ci.git']]])
+                               credentialsId: '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',
+                               url: 'https://github.com/TiffanyNgono/project-cd.git']]])
 
                 
             }
